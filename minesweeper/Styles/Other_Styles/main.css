@@ -1,0 +1,7 @@
+/* Grupo: 38 */
+/* Número: 64168, Nome: Daniel Santos, PL: 22 */
+/* Número: 42081, Nome: Miguel Lopes, PL: 22 */
+
+@import "screen.css" screen;
+@import "smallscreen.css" screen and (max-width: 1099px);
+@import "widescreen.css" screen and (min-width: 1100px);
