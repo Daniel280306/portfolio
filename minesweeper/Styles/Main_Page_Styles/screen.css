@@ -1,0 +1,64 @@
+/* Grupo: 38 */
+/* Número: 64168, Nome: Daniel Santos, PL: 22 */
+/* Número: 42081, Nome: Miguel Lopes, PL: 22 */
+
+body {
+    border: 0.3em solid black;
+    background-color: #3a7ca5;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+/* -------------------- */
+
+header {
+    border-bottom: 0.3em solid black;
+    background-color: #2b4a5f;
+    text-align: center;
+    color: #c0d3dd;
+}
+
+/* -------------------- */
+
+#authentication-nav a {
+    display: inline-block;
+    border: 0.1em solid black;
+    background-color: #8de4af;
+    padding: 0.3em 0.75em;
+    text-decoration: none;
+    color: #2f3e46;
+}
+
+/* -------------------- */
+
+#explore-nav {
+    background-color: #223843;
+    padding: 1em;
+}
+
+#explore-nav a {
+    display: block;
+    padding: 0.3em;
+    text-decoration: none;
+    color: #c0d3dd;
+}
+
+#explore-nav a:hover {
+    background-color: #2b4a5f;
+}
+
+/* -------------------- */
+
+section {
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+}
+
+/* -------------------- */
+
+/* NEW */
+.is-hidden {
+    display: none !important;
+}
