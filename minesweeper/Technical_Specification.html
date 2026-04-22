@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!-- Grupo: 38 -->
+<!-- Número: 64168, Nome: Daniel Santos, PL: 22 -->
+<!-- Número: 42081, Nome: Miguel Lopes, PL: 22 -->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Styles/Others_Styles/main.css">
+    <script src="Scripts/interactions_common.js"></script>
+	<title>Technical Specification</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            MINESWEEPER
+        </h1>
+    </header>
+
+    <section id="subtitle">
+        <h2>
+            Technical Specification
+        </h2>
+    </section>
+
+    <section id="content">
+        <h3>
+            Technologies Used:
+        </h3>
+
+        <ul>
+            <li><u>HTML5:</u> For the structure and markup of the page, including tables, text, and navigation.</li>
+            <li><u>CSS3:</u> For visual design and styling, including layout, colors, typography, and responsiveness.</li>
+            <li><u>Responsive Design:</u> Techniques such as CSS Grid and Flexbox to create adaptable and flexible layouts.</li>
+            <li><u>Responsiveness (Media Queries):</u> To ensure the interface adjusts to various screen sizes (e.g., mobile, tablet, desktop).</li>
+            <li><u>CSS Properties:</u> Including box-sizing, flexbox, grid, transitions, and :hover to enhance interaction and aesthetics.</li>
+            <li><u>Web Fonts:</u> Use of custom or system fonts like Courier New, Arial, and Verdana for consistent typography.</li>
+            <li><u>HTML Tables:</u> Used to structure the statistics and leaderboard sections directly in HTML.</li>
+            <li><u>Dynamic Table Generation (via Javascript):</u> The game grid is dynamically created using JavaScript with &lt;table&gt; elements, simulating an interactive, matrix-based layout.</li>
+            <li><u>JavaScript (ES6+):</u> For client-side logic, including user interaction, game mechanics, DOM manipulation, statistics tracking, and leaderboard updates.</li>
+            <li><u>Strict Mode ("use strict"):</u> To enforce cleaner and more secure JavaScript coding practices.</li>
+            <li><u>Event Listeners:</u> To respond to user actions such as clicks, page loads, and gameplay events.</li>
+            <li><u>Local Storage API:</u> To persist user data (e.g., usernames, game history) across sessions without requiring a backend.</li>
+            <li><u>Array Methods:</u> Use of filter(), map(), sort(), and others for efficient data processing.</li>
+            <li><u>Dynamic DOM Manipulation:</u> For real-time updates to statistics, leaderboard entries, and the game interface.</li>
+            <li><u>Modular Structure:</u> Functions are organized by responsibility, improving code readability and maintainability.</li>
+        </ul>
+
+        <h3>
+            Authors:
+        </h3>
+
+        <p>
+            Daniel Santos (Number: 64168)
+        </p>
+
+        <p>
+            Miguel Lopes (Number: 42081)
+        </p>
+    </section>
+
+    <nav id="authentication-nav">
+        <a id="sign-up-ref" href="Sign_Up.html">Sign Up</a>
+        <a id="login-ref" href="Login.html">Login</a>
+        <a id="btn-logout" class="is-hidden" href="#">Logout</a>
+    </nav>
+
+    <nav id="explore-nav">
+        <a href="Minesweeper_Main_Page.html">Main Page</a>
+        <a href="Origin_and_History.html">Origin &amp; History</a>
+        <a href="Rules_and_Tutorials.html">Rules &amp; Tutorials</a>
+        <a href="Leaderboard_and_Statistics.html">Leaderboard &amp; Statistics</a>
+        <a href="Play.html">Play</a>
+    </nav>
+</body>
+</html>
