@@ -1,0 +1,216 @@
+/* Grupo: 38 */
+/* Número: 64168, Nome: Daniel Santos, PL: 22 */
+/* Número: 42081, Nome: Miguel Lopes, PL: 22 */
+
+body {
+    border: 0.3em solid black;
+    background-color: #3a7ca5;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+/* -------------------- */
+
+header {
+    border-bottom: 0.3em solid black;
+    background-color: #2b4a5f;
+    text-align: center;
+    color: #c0d3dd;
+}
+
+/* -------------------- */
+
+/* NEW */
+#authentication-nav a {
+    display: inline-block;
+    border: 0.1em solid black;
+    background-color: #8de4af;
+    padding: 0.3em 0.75em;
+    text-decoration: none;
+    color: #2f3e46;
+}
+
+/* -------------------- */
+
+.info {
+    border: 0.05em solid black;
+    width: 40%;
+    background-color: #e0e0e0;
+    padding: 0.3em;
+    color: #2c2c2c;
+}
+
+/* NEW */
+.info label {
+    display: inline-block;
+    width: 8.5em;
+}
+
+/* NEW */
+.info input {
+    width: calc(95% - 10em);
+    box-sizing: border-box;
+}
+
+#avatar-img img {
+    border: 0.15em solid #9db4c0;
+    border-radius: 0.5em;
+}
+
+#avatar-img img:hover {
+    transform: scale(1.025);
+    background-color: #d0eaff;
+    cursor: pointer;
+}
+
+/* NEW */
+.avatar-img-selected {
+    border: 0.15em solid #2b4a5f !important;
+    transform: scale(1.025);
+    background-color: #d0eaff;
+    box-shadow: 0 0 0.75em rgba(100, 120, 140, 0.6);
+}
+
+/* NEW */
+#btn-sign-up, #btn-login, #btn-diff-beginner, #btn-diff-intermediate, #btn-diff-expert, #btn-start-game, #btn-end-game, #btn-restart-game { 
+    border: none;
+    border-radius: 0.5em;
+    width: fit-content;
+    background-color: #4d8dd5;
+    padding: 0.35em 1.25em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+/* NEW */
+#btn-sign-up:hover, #btn-login:hover, #btn-diff-beginner:hover, #btn-diff-intermediate:hover, #btn-diff-expert:hover, #btn-start-game:hover, #btn-end-game:hover, #btn-restart-game:hover {
+    transform: scale(1.025);
+    background-color: #2e6bb8;
+    cursor: pointer;
+}
+
+/* -------------------- */
+
+#explore-nav {
+    background-color: #223843;
+    padding: 1em;
+}
+
+#explore-nav a {
+    display: block;
+    padding: 0.3em;
+    text-decoration: none;
+    color: #c0d3dd;
+}
+
+#explore-nav a:hover {
+    background-color: #2b4a5f;
+}
+
+/* -------------------- */
+
+#subtitle {
+    border-bottom: 0.15em solid black;
+    background-color: #8de4af;
+    padding-left: 1em;
+    color: #163440;
+}
+
+/* -------------------- */
+
+#content {
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+}
+
+#tutorial-vid video {
+    border: 0.15em solid black;
+    width: 60%;
+}
+
+.stats-table th, .stats-table td {
+    border: 0.05em solid black;
+    padding: 0.2em 0.6em;
+    text-align: center;
+}
+
+.stats-table th {
+    background-color: #8bc6b7;
+    color: #163440;
+}
+
+/* NEW */
+.btn-diff-selected {
+    transform: scale(1.025);
+    background-color: #2b4a5f !important;
+    box-shadow: 0 0 0.75em rgba(100, 120, 140, 0.6);
+}
+
+/* NEW */
+#btn-start-game:disabled, #btn-end-game:disabled, #btn-restart-game:disabled {
+    transform: none;
+    background-color: #1f3c5a;
+    color: #9db4c0;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* NEW */
+#game-table {
+    border: 0.2em solid #999;
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 0 0 0.75em rgba(100, 120, 140, 0.6);
+}
+
+/* NEW */
+#game-table td {
+    width: 1.6em;
+    height: 1.6em;
+    background-color: #c0c0c0;
+    box-shadow: inset 0 0 0 0.1em #fff, inset 0 0 0 0.15em #808080;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#game-table td:hover {
+    background-color: #b0b0b0;
+}
+
+/* NEW */
+.revealed-cell {
+    background-color: #ddd !important;
+}
+
+/* NEW */
+#game-table td[data-adjacent-mines="1"] {color: #2b4a5f;}
+#game-table td[data-adjacent-mines="2"] {color: #4d8dd5;}
+#game-table td[data-adjacent-mines="3"] {color: #55b79a;}
+#game-table td[data-adjacent-mines="4"] {color: #1f3c5a;}
+#game-table td[data-adjacent-mines="5"] {color: #b06b4a;}
+#game-table td[data-adjacent-mines="6"] {color: #9dbf57;}
+#game-table td[data-adjacent-mines="7"] {color: #223843;}
+#game-table td[data-adjacent-mines="8"] {color: #142730;}
+
+/* NEW */
+.revealed-bomb {
+    background-color: red !important;
+}
+
+/* NEW */
+#span-mines-left, #span-time-elapsed, #span-remaining-time {
+    color: #e03e2f;
+}
+
+/* -------------------- */
+
+/* NEW */
+.is-hidden {
+    display: none !important;
+}
