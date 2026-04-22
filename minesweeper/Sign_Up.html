@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<!-- Grupo: 38 -->
+<!-- Número: 64168, Nome: Daniel Santos, PL: 22 -->
+<!-- Número: 42081, Nome: Miguel Lopes, PL: 22 -->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Styles/Others_Styles/main.css">
+    <script src="Scripts/interactions_sign_up.js"></script>
+	<title>Sign Up Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            MINESWEEPER
+        </h1>
+    </header>
+
+    <section id="subtitle">
+        <h2>
+            Sign Up Page
+        </h2>
+    </section>
+
+    <section id="content">
+        <h3>
+            Create a new account
+        </h3>
+
+        <form id="frm-sign-up">
+            <p class="info">
+                <label for="username">Username:</label>
+                <input type="text"
+                       id="username"
+                       name="username"
+                       pattern="^[a-zA-Z0-9]+$"
+                       required
+                       title="Only letters and numbers allowed. No spaces or special characters.">
+            </p>
+
+            <p class="info">
+                <label for="email">Email:</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       required>
+            </p>
+
+            <p class="info">
+                <label for="date-of-birth">Date of Birth:</label>
+                <input type="date"
+                       id="date-of-birth"
+                       name="date-of-birth"
+                       required>
+            </p>
+
+            <p class="info">
+                <label for="password">Password:</label>
+                <input type="password"
+                       id="password"
+                       name="password"
+                       required>
+            </p>
+
+            <p>
+                <u>Pick an avatar</u>
+            </p>
+
+            <p id="avatar-img">
+                <img src="Media/Images/Avatar_Cat.png" height="75" width="75" alt="Cat Avatar Image" data-avatar="cat">
+                <img src="Media/Images/Avatar_Dog.png" height="75" width="75" alt="Dog Avatar Image" data-avatar="dog">
+                <img src="Media/Images/Avatar_Monkey.png" height="75" width="75" alt="Monkey Avatar Image" data-avatar="monkey">
+                <img src="Media/Images/Avatar_Pig.png" height="75" width="75" alt="Pig Avatar Image" data-avatar="pig">
+            </p>
+
+            <input type="hidden"
+                   id="avatar"
+                   name="avatar">
+        </form>
+
+        <p>
+            <button id="btn-sign-up" type="button">Sign Up</button>
+        </p>
+
+        <p>
+            Already have an account? <a id="login-ref" href="Login.html">Login</a>
+        </p>
+    </section>
+
+    <nav id="explore-nav">
+        <a href="index.html">Main Page</a>
+        <a href="Origin_and_History.html">Origin &amp; History</a>
+        <a href="Rules_and_Tutorials.html">Rules &amp; Tutorials</a>
+        <a href="Leaderboard_and_Statistics.html">Leaderboard &amp; Statistics</a>
+        <a href="Play.html">Play</a>
+        <a href="Technical_Specification.html">Technical Specification</a>
+    </nav>
+</body>
+</html>

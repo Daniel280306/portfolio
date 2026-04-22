@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<!-- Grupo: 38 -->
+<!-- Número: 64168, Nome: Daniel Santos, PL: 22 -->
+<!-- Número: 42081, Nome: Miguel Lopes, PL: 22 -->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Styles/Others_Styles/main.css">
+    <script src="Scripts/interactions_common.js"></script>
+    <script src="Scripts/interactions_play.js"></script>
+	<title>Play</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            MINESWEEPER
+        </h1>
+    </header>
+
+    <section id="subtitle">
+        <h2>
+            Play
+        </h2>
+    </section>
+
+    <section id="content">
+        <div id="prelogin-content">
+            <h3>
+                Whoa there, explorer!
+            </h3>
+
+            <p>
+                Looks like you're trying to defuse mines without a badge.
+            </p>
+
+            <p>
+                <a href="Login.html">Login</a> or <a href="Sign_Up.html">Sign Up</a> first - no sneaking into the minefield!
+            </p>
+        </div>
+
+        <div id="game-content" class="is-hidden">
+            <h3>
+                Select Difficulty:
+            </h3>
+
+            <p>
+                <button id="btn-diff-beginner">Beginner</button>
+            </p>
+
+            <p>
+                <button id="btn-diff-intermediate">Intermediate</button>
+            </p>
+
+            <p>
+                <button id="btn-diff-expert">Expert</button>
+            </p>
+
+            <p>
+                <button id="btn-start-game">Start Game</button>
+            </p>
+
+            <div class="game-table-container">
+                <table id="game-table"></table>
+            </div>
+
+            <h3>
+                Mines Left: <span id="span-mines-left"></span>
+            </h3>
+
+            <h3>
+                Elapsed Time: <span id="span-time-elapsed"></span> sec
+            </h3>
+
+            <h3>
+                Remaining Time: <span id="span-remaining-time"></span> sec
+            </h3>
+
+            <p>
+                <button id="btn-end-game">End Game</button>
+            </p>
+
+            <p>
+                <button id="btn-restart-game">Restart Game</button>
+            </p>
+        </div>
+    </section>
+
+    <nav id="authentication-nav">
+        <a id="sign-up-ref" href="Sign_Up.html">Sign Up</a>
+        <a id="login-ref" href="Login.html">Login</a>
+        <a id="btn-logout" class="is-hidden" href="#">Logout</a>
+    </nav>
+
+    <nav id="explore-nav">
+        <a href="index.html">Main Page</a>
+        <a href="Origin_and_History.html">Origin &amp; History</a>
+        <a href="Rules_and_Tutorials.html">Rules &amp; Tutorials</a>
+        <a href="Leaderboard_and_Statistics.html">Leaderboard &amp; Statistics</a>
+        <a href="Technical_Specification.html">Technical Specification</a>
+    </nav>
+</body>
+</html>
