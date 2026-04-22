@@ -41,3 +41,8 @@ Optimization of a hospital management database. Achieved **32% performance impro
 
 -- 3. Test optimized queries
 \i optimization.sql
+
+## Full Report
+
+For detailed analysis with performance graphs and explanations, see:
+- `relatorio-e3.pdf` - Complete technical report (32% improvement documented)
